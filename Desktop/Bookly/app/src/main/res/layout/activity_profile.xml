@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue2"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/back"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_back_arrow"
+                    android:background="@drawable/transparent_bg"
+                    app:tint="@color/white"
+                    android:layout_gravity="left"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/profilegrey"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="0dp"></ImageView>
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Salma Hassan"
+                    android:textColor="#FFF"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/tv_total_posts"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="0 Posts"
+                    android:textColor="#FFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="30dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingStart="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+
+                    android:text="Edit Profile"
+                    android:drawableStart="@drawable/ic_pen"
+                    android:drawablePadding="15dp"
+                    app:tint="#e7f1ee"
+                    android:background="@drawable/rounded_options"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+                <TextView
+                    android:id="@+id/tv_posts"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingStart="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="My Posts"
+                    android:drawableStart="@drawable/ic_post"
+                    android:drawablePadding="15dp"
+                    app:tint="#e7f1ee"
+                    android:background="@drawable/rounded_options"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+                <TextView
+                    android:id="@+id/tv_fav"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingStart="15dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:text="Favorites"
+                    android:drawableStart="@drawable/ic_favorite"
+                    android:drawablePadding="10dp"
+                    app:tint="#e7f1ee"
+                    android:background="@drawable/rounded_options"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+                    </LinearLayout>
+</ScrollView>

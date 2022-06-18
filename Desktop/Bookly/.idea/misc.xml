@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg_start_rating.xml" value="0.141" />
+        <entry key="app/src/main/res/drawable/circle.xml" value="0.23" />
+        <entry key="app/src/main/res/drawable/ic_mail2.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable/rounded.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/rounded_et.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/rounded_options.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable/transparent_bg.xml" value="0.1225" />
+        <entry key="app/src/main/res/layout/activity_add_edit_book.xml" value="0.39888559977213545" />
+        <entry key="app/src/main/res/layout/activity_book_.xml" value="0.29025641025641025" />
+        <entry key="app/src/main/res/layout/activity_book_list.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.2537313432835821" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.15282392026578073" />
+        <entry key="app/src/main/res/layout/activity_posts.xml" value="0.26682281494140625" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.32789035373263886" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/activity_view_edit_profile.xml" value="0.23168351915147573" />
+        <entry key="app/src/main/res/layout/book_activity.xml" value="0.2318771362304688" />
+        <entry key="app/src/main/res/layout/cardveiw_item_book.xml" value="0.29025641025641025" />
+        <entry key="app/src/main/res/layout/grid_layout_list_item.xml" value="0.2425249169435216" />
+        <entry key="app/src/main/res/layout/item_container.xml" value="0.27877349853515626" />
+        <entry key="app/src/main/res/layout/my_post_adapter.xml" value="0.2617706298828125" />
+        <entry key="app/src/main/res/layout/my_post_cardview.xml" value="0.2677083333333333" />
+        <entry key="app/src/main/res/layout/recent_items.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/slide_item_container.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/menu/bottom_nav_bar.xml" value="0.20925925925925926" />
+        <entry key="app/src/main/res/menu/menu_profile.xml" value="0.23543548583984378" />
+        <entry key="app/src/main/res/menu/nav_menu.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
